@@ -1,0 +1,26 @@
+.contacts h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.space {
+    margin-top: 500px;
+  }
+  #image-track {
+    margin-top: 50px;
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }

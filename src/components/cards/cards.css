@@ -1,0 +1,21 @@
+.cards {
+    margin: 30px 0 30px;
+}
+.card {
+    text-align: center;
+}
+.cards .card {
+    background: linear-gradient(#6b8bd2, indigo);
+    color: turquoise;
+    border: 1px solid black;
+    border-radius: 0%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 20px;
+}
